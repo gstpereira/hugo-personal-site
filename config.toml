@@ -1,0 +1,33 @@
+baseURL = "https://gustavopereira.me/"
+languageCode = "pt-br"
+DefaultContentLanguage = "pt-br"
+title = "Gustavo Pereira"
+theme = "codex"
+
+enableEmoji = true
+enableRobotsTXT = true
+enableMissingTranslationPlaceholders = true
+
+googleAnalytics = "UA-172306750-1"
+
+
+[markup]
+  [markup.highlight]
+    codeFences = false
+    
+  # Set to false to disallow raw HTML in markdown files
+  [markup.goldmark.renderer]
+      unsafe = true
+
+
+[params]
+    dateFormat = "02/01/2006"
+
+    twitter = "https://twitter.com/gst_pereira"
+    github = "https://github.com/gstpereira"
+    linkedin = "https://www.linkedin.com/in/gstpereira/"
+    instagram = "https://instagram.com/gst.pereira"
+
+    iconTitles = ["LinkedIn", "Instagram", "GitHub", "Twitter"]
+    iconOrder = ["LinkedIn", "GitHub", "Twitter", "Instagram"]
+
